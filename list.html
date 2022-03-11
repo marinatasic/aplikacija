@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>APLIKACIJA</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    </head>
+    <body>
+        
+            
+            <div class="container">
+                <input type = "text" id="myInput" placeholder="Search..">
+             <form name="myForm"  action="search" >
+             <input type="radio" name="searchs"   value="ime">Ime
+             <input type="radio" name="searchs"  value="prezime">Prezime
+             <input type="radio" name="searchs" value="br_telefona">Kontakt
+             <input type="radio" name="searchs"  value="godina_rodjenja">Godine
+            </form>
+    
+            <table id="myList_table">
+                <tr class="header">
+
+                    <th>Ime</th>
+                    <th>Prezime</th>
+                    <th>Kontakt</th>
+                    <th>Godine</th>
+                    <th>Slika</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                
+                
+            </table>
+         
+        </div>
+        <div class="form" id="fid">
+            <div class="left" id="novoime">Ime:</div>
+            <div><input type="text" name="ime" id="fime" /></div>
+            <div class="left" id="novop">Prezime:</div>
+            <div><input type="text" name="prezime" id="fprezime" /></div>
+            <div class="left" id="btel">Broj telefona:</div>
+            <div><input type="text" name="br_telefona" id="fbr_telefona" /></div>
+            <div class="left" id="bgod">Godine: </div>
+            <div><input type="text" name="godina_rodjenja" id="fgodina_rodjenja" /></div>
+
+            <div class="left" id="image">Slika:</div>
+            <div><input type="url" id="url" name="urlField" required></div>
+            <button id="update">Update</button>
+            
+            <button id="add">Add</button>
+        </div>
+        <!--preko dinamicke-->
+        <script src="style.js">
+          
+        </script>
+    </body>
+</html>

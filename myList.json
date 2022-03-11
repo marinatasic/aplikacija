@@ -1,0 +1,37 @@
+[
+    {
+        "id" : 0 ,
+        "ime" : "Nikola",
+        "prezime" : "Jovic",
+        "br_telefona" : "066228182",
+        "godina_rodjenja" : "1997",
+        "img" : "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+    },
+    {
+        "id" : 1 ,
+        "ime" : "Milos",
+        "prezime" : "Jonic",
+        "br_telefona" : "0637593164",
+        "godina_rodjenja" : "1995",
+        "img" : "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+        
+    },
+    {
+        "id" : 2,
+        "ime" : "Milica",
+        "prezime" : "Nikolic",
+        "br_telefona" : "0616178136",
+        "godina_rodjenja" : "1999",
+        "img" : "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+        
+    },
+    {
+        "id" : 3,
+        "ime" : "Katarina",
+        "prezime" : "Stojic",
+        "br_telefona" : "0605223906",
+        "godina_rodjenja" : "1997",
+        "img" : "https://images.pexels.com/photos/2811087/pexels-photo-2811087.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+
+    }
+]
